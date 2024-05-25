@@ -26,7 +26,7 @@ body {
 
 /* Attributions Styles */
 .attribution {
-  font-size: 11px;
+  font-size: 14px;
   text-align: center;
 }
 .attribution a {
@@ -112,7 +112,7 @@ span:hover {
 }
 
 .card-image::after {
-  content: url("/images/icon-view.svg");
+  content: url("..images/icon-view.svg");
   background: var(--aqua);
   position: absolute;
   inset: 0;
