@@ -112,7 +112,7 @@ span:hover {
 }
 
 .card-image::after {
-  content: url("../images/icon-view.svg");
+  content: url("./images/icon-view.svg");
   background: var(--aqua);
   position: absolute;
   inset: 0;
