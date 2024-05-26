@@ -112,13 +112,12 @@ span:hover {
 }
 
 .card-image::after {
-  content: url("./images/icon-view.svg");
+  content: url("../images/icon-view.svg");
   background: var(--aqua);
   position: absolute;
   inset: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  display: grid;
+  place-items: center;
   opacity: 0;
   transition: all 0.25s;
 }
